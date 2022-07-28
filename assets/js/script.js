@@ -40,19 +40,20 @@ $(document).ready(function () {
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("9OL1KC527qUs4hl_g");
-
-        const serviceID = 'default_service';
-        const templateID = 'template_mngplvv';
-        emailjs.sendForm(serviceID, templateID, '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+        document.getElementById('#contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const serviceID = 'default_service';
+            const templateID = 'template_mngplvv';
+            emailjs.sendForm('default_service','#contact-form', this)
+                .then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    document.getElementById("contact-form").reset();
+                    alert("Form Submitted Successfully");
+                }, function (error) {
+                    console.log('FAILED...', error);
+                    alert("Form Submission Failed! Try Again");
+                });
             });
-        event.preventDefault();
     });
     // <!-- emailjs to mail contact form data -->
 

@@ -2,31 +2,31 @@
   {
     "name": "Portfolio WebApp",
     "desc": "Personal Portfolio Web App using Python and Based on Django Framework",
-    "image": "",
-    "category": "WebApp Developement",
+    "image": "ProtfolioApp.png",
+    "category": "webapp",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "view": "https://github.com/Diwakar-debug/PortfolioApp",
+      "code": "https://github.com/Diwakar-debug/PortfolioApp"
     }
   },
   {
-    "name": "SPPU Engg Prep",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
-    "category": "android",
+    "name": "Image Editor",
+    "desc": "Lightweight Image Editor using HTML, CSS and JS only",
+    "image": "ImageEditor.png",
+    "category": "basicweb",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "view": "https://github.com/Diwakar-debug/Image-Editor-Test",
+      "code": "https://github.com/Diwakar-debug/Image-Editor-Test"
     }
   },
   {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
-    "category": "android",
+    "name": "HackerRank Solutions",
+    "desc": "Coding Practice on Hackerank",
+    "image": "Hackerrank.png",
+    "category": "dsa",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
+      "view": "https://github.com/Diwakar-debug/Hackerrank_Sols",
+      "code": "https://github.com/Diwakar-debug/Hackerrank_Sols"
     }
   },
   {

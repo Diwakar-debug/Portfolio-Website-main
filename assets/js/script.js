@@ -39,11 +39,11 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("service_pbi3s2k");
+        emailjs.init("9OL1KC527qUs4hl_g")
 
         const contact_service = 'default_service';
         const template_contact = 'template_mngplvv';
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm(contact_service, template_contact, '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();

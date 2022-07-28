@@ -2,7 +2,7 @@
   {
     "name": "Portfolio WebApp",
     "desc": "Personal Portfolio Web App using Python and Based on Django Framework",
-    "image": "ProtfolioApp.png",
+    "image": "ProtfolioApp",
     "category": "webapp",
     "links": {
       "view": "https://github.com/Diwakar-debug/PortfolioApp",
@@ -12,7 +12,7 @@
   {
     "name": "Image Editor",
     "desc": "Lightweight Image Editor using HTML, CSS and JS only",
-    "image": "ImageEditor.png",
+    "image": "ImageEditor",
     "category": "basicweb",
     "links": {
       "view": "https://github.com/Diwakar-debug/Image-Editor-Test",
@@ -22,7 +22,7 @@
   {
     "name": "HackerRank Solutions",
     "desc": "Coding Practice on Hackerank",
-    "image": "Hackerrank.png",
+    "image": "Hackerrank",
     "category": "dsa",
     "links": {
       "view": "https://github.com/Diwakar-debug/Hackerrank_Sols",

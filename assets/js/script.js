@@ -41,7 +41,6 @@ $(document).ready(function () {
     $("#contact-form").submit(function (event) {
         emailjs.init("9OL1KC527qUs4hl_g");
         document.getElementById('#contact-form').addEventListener('submit', function(event) {
-            event.preventDefault();
             const serviceID = 'default_service';
             const templateID = 'template_mngplvv';
             emailjs.sendForm('default_service','#contact-form', this)
@@ -53,7 +52,7 @@ $(document).ready(function () {
                     console.log('FAILED...', error);
                     alert("Form Submission Failed! Try Again");
                 });
-            });
+        event.preventDefault();
     });
     // <!-- emailjs to mail contact form data -->
 

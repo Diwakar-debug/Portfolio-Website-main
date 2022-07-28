@@ -43,7 +43,7 @@ $(document).ready(function () {
 
         const serviceID = 'default_service';
         const templateID = 'template_mngplvv';
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm(serviceID, templateID, '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();

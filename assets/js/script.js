@@ -61,7 +61,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio Site | Diwakar Ghosh";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -73,7 +73,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["python", "backend development", "webapp developement", "data analytics", "data visualization", "microsoft power bi", "microsoft power apps"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
